@@ -15,14 +15,15 @@ ${user_control}  css: .UserMenu_shortName_RQK5l
 *** Keywords ***
 go to app
    go to  ${HOME_PAGE}
-   BuiltIn.Sleep  3
+   BuiltIn.Sleep  1
 user name
-   input text   ${user_name}   yunusemretest asdad
+   input text   ${user_name}   yunusemretest bozkrt
 email
-   input text  ${e-mail}  y.bozkurt@test.com
+   input text  ${e-mail}  y.e.bozkurt@test.com
+   BuiltIn.Sleep  1
 sifre
    input text  ${sifre}   134567tr
-   BuiltIn.Sleep  3
+   BuiltIn.Sleep  1
 Sign up
    click element  ${sign_up}
    BuiltIn.Sleep  5

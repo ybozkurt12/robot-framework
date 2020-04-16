@@ -13,5 +13,5 @@ other test cases
     my watch list
     go to homepg
     my watch list on home page
-    Logout
+    logout
     logout control

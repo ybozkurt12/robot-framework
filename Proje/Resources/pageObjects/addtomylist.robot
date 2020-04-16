@@ -33,7 +33,7 @@ go to homepg
 my watch list on home page
     Wait Until Element Is Visible  ${home_watch_list}
     BuiltIn.Sleep  3
-Logout
+logout
    Mouse Over  ${logout_hover}
    BuiltIn.Sleep  3
    Execute Javascript  ${logout_click}

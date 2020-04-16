@@ -14,15 +14,15 @@ go to series
    BuiltIn.Sleep  3
 click on the section
    Execute Javascript  ${click_on_the_section}
-   BuiltIn.Sleep  6
+   BuiltIn.Sleep  5
 Go_15_minutes
     Execute Javascript   ${Go_15_minutes}
-    BuiltIn.Sleep  6
+    BuiltIn.Sleep  5
 play movie
      Execute Javascript  ${play_movie}
 go to homepage2
     go to  ${HOME_PAGE}
-    BuiltIn.Sleep  6
+    BuiltIn.Sleep  5
 keep watching check
     Wait Until Page Contains Element  ${go_ahead_check}
     BuiltIn.Sleep  3

@@ -8,7 +8,8 @@ Test Setup  utils.start session
 Test Teardown  utils.close session
 
 *** Test Cases ***
-first step
+
+First test case scenario
     homepageApp.go to homepage
     watchseriesApp.movie pages
 

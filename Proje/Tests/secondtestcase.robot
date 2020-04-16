@@ -1,5 +1,4 @@
 *** Settings ***
-
 Resource  ../Resources/utils.robot
 Resource  ../Resources/homepageApp.robot
 Resource  ../Resources/addtomylistApp.robot
@@ -8,7 +7,8 @@ Test Setup  utils.start session
 Test Teardown  utils.close session
 
 *** Test Cases ***
-second. first step
+
+Second test case scenario
     homepageApp.go to homepage
     addtomylistApp.other test cases
 
